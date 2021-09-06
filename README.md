@@ -49,12 +49,9 @@ The names of 38 classes are:
 37. Tomato Yellow Leaf Curl Virus
 38. Tomato healthy
 
-Background class is omitted. For detailed information about classes, please refer to [An open access repository of images on plant health to enable the development of mobile disease diagnostics
-](https://arxiv.org/abs/1511.08060) [1].
+Background class is omitted. For detailed information about classes, please refer to [An open access repository of images on plant health to enable the development of mobile disease diagnostics](https://arxiv.org/abs/1511.08060) [1].
 
-Dataset can be downloaded from [link](https://data.mendeley.com/datasets/tywbtsjrjv/1) [2] available under license  
-[CC0 1.0](LICENSE). The total number of images are 54305. A sample image from each class of PlantVillage-full (256x256)
-is shown as:
+Dataset can be downloaded from [link](https://data.mendeley.com/datasets/tywbtsjrjv/1) [2] available under license [CC0 1.0](LICENSE). The total number of images are 54305. A sample image from each class of PlantVillage-full (256x256) is shown as:
 
 ![](imgs/plant256.png)
 
@@ -72,8 +69,7 @@ The histogram showing frequency of training (in blue) and test (in orange) image
 We have downsampled to original plant leaves images from `256x256` to `32x32` , `64x64` and `96x96` respectively. 
 All three downsampled variants are used in our papers [3,4]. 
 They can be downloaded 
-from [releases](https://github.com/attaullah/downsampled-plant-disease-dataset/releases), and can be loaded using 
-`numpy` as:
+from [releases](https://github.com/attaullah/downsampled-plant-disease-dataset/releases), and can be loaded using `numpy` as:
 
 ```python
 import numpy as np
