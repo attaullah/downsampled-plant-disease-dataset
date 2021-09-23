@@ -83,6 +83,8 @@ by applying the script to the original downloaded file [plant-full.zip](https://
 ```bash
 python downsample_script.py --name plant32 --data_dir data/
 ```
+**Note** : For running `downsample_script.py` file,  `absl_py` and `tensorflow` packages are required.
+
 A sample image from each class of PlantVillage (32x32) is shown as:
 ![](imgs/plant32.png)
 
