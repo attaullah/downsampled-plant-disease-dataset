@@ -5,7 +5,7 @@ The PlantVillage dataset consists of healthy and
 infected plant leaves of 14 different species. There are 38 classes, of which
 12 correspond to healthy plants and 26 to infected plants.
 
-The names of species are:
+The names of the species are:
 >Apple, Blueberry, Cherry, Corn, Grape, Orange, Peach, Bell Pepper, Potato, Raspberry, Soybean, Squash, Strawberry, and Tomato.
 
 The names of the 38 classes are:
@@ -58,13 +58,13 @@ The dataset we used to derive our versions of the data can be downloaded from [l
 The original dataset does not contain separate `train` and `test` splits. We make our versions available under the same license, i.e., [CC0 1.0](LICENSE). `5%` from each class is reserved for the `test` split and the remainder is used for the `training` split.  
 . The total number of training images is 43456 and the number of test images is 10849. These can be downloaded from 
 [plant-full.zip](https://github.com/attaullah/downsampled-plant-disease-dataset/releases).
-The histogram showing frequency of training (in blue) and test (in orange) images is shown as:
+The histogram showing the frequency of training (in blue) and test (in orange) images is shown as:
 
 ![](imgs/plant-labels-histogram.png)
 
 
 # Downsampled variants
-We have downsampled the original plant leave images from `256x256` to `32x32` , `64x64` and `96x96` respectively. 
+We have downsampled the original plant leaves images from `256x256` to `32x32`, `64x64` and `96x96` respectively. 
 All three downsampled variants are used in our papers [3,4]. 
 They can be downloaded 
 from [releases](https://github.com/attaullah/downsampled-plant-disease-dataset/releases), and can be loaded using `numpy` as:
@@ -110,20 +110,20 @@ The dataset we use to derive our data from is provided by [1], kindly cite the p
 ```
 if you use downsampled variants or `train` and `test` splits provided in this repository, kindly cite our paper [4]:
 ```
-@misc{sahito2021better,
-      title={Better Self-training for Image Classification through Self-supervision}, 
-      author={Attaullah Sahito and Eibe Frank and Bernhard Pfahringer},
-      year={2021},
-      eprint={2109.00778},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{sahito2022better,
+  title={Better self-training for image classification through self-supervision},
+  author={Sahito, Attaullah and Frank, Eibe and Pfahringer, Bernhard},
+  booktitle={Australasian Joint Conference on Artificial Intelligence},
+  pages={645--657},
+  year={2022},
+  organization={Springer}
 }
 ```
 
 # References
 1. David. P. Hughes, Marcel Salathe (2016), An open access repository of images on plant health to enable the development of mobile disease diagnostics, [arxiv:1511.08060](https://arxiv.org/abs/1511.08060)
 2. J, ARUN PANDIAN; GOPAL, GEETHARAMANI (2019), “Data for: Identification of Plant Leaf Diseases Using a 9-layer Deep Convolutional Neural Network”, Mendeley Data, V1, doi: [10.17632/tywbtsjrjv.1](https://www.sciencedirect.com/science/article/abs/pii/S0045790619300023?via%3Dihub#!)
-3. Sahito A., Frank E., Pfahringer B. (2020) Transfer of Pretrained Model Weights Substantially Improves Semi-supervised Image Classification. In: Gallagher M., Moustafa N., Lakshika E. (eds) AI 2020: Advances in Artificial Intelligence. AI 2020 . Lecture Notes in Computer Science, vol 12576. Springer, Cham. [DOI:978-3-030-64984-5_34](https://doi.org/10.1007/978-3-030-64984-5_34)
+3. Sahito A., Frank E., Pfahringer B. (2020) Transfer of Pretrained Model Weights Substantially Improves Semi-supervised Image Classification. In: Gallagher M., Moustafa N., Lakshika E. (eds) AI 2020: Advances in Artificial Intelligence. AI 2020. Lecture Notes in Computer Science, vol 12576. Springer, Cham. [DOI:978-3-030-64984-5_34](https://doi.org/10.1007/978-3-030-64984-5_34)
 4. Sahito A., Frank E., Pfahringer B. (2021) Better Self-training for Image Classification through Self-supervision. 	[arXiv:2109.00778](https://arxiv.org/abs/2109.00778)
  
  # LICENSE
